@@ -1,8 +1,6 @@
 module github.com/mattermost/mattermost-load-test-ng
 
-go 1.22.0
-
-toolchain go1.22.8
+go 1.24.0
 
 require (
 	github.com/blang/semver v3.5.1+incompatible
@@ -18,7 +16,7 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.9.0
 	github.com/valyala/fasthttp v1.7.1 // indirect
-	golang.org/x/crypto v0.25.0
+	golang.org/x/crypto v0.45.0
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 )
 
@@ -140,9 +138,9 @@ require (
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	github.com/yudai/pp v2.0.1+incompatible // indirect
 	github.com/yuin/goldmark v1.7.4 // indirect
-	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240725223205-93522f1f2a9f // indirect
 	google.golang.org/grpc v1.65.0 // indirect
